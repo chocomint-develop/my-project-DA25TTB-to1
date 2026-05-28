@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang= "vi">
 <head>
-	<title> Giới Thiệu </title>
+	<title>Thiết kế form đăng nhập</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/login-form.css">
 </head>
 <body>
-	<h3>thông tin </h3>
+	<div class ="container">
+		<form id ="frmLogin">
+			<h2>Login</h2>
+			<div class ="form-gr">
+				<label for="txtUsername">Username: </label> <br>
+				<input class ="form-control" type ="t1ext" name = "txtUsername" id = "txtUsername">
+			</div>
+			<div class ="form-gr">
+				<label for="txtPassword">Password: </label> <br>
+				<input class = "form-control" type = "password" name="txtPassword" id="txtPassword"> 
+			</div>
+			<br>
+			<input class = "button" type="submit" name="sbLogin" value="Login">
+			<input class = "button" type="reset" name="rsCancel" id="Cancel">
+		</form>
+	</div>
 </body>
 </html
 	
