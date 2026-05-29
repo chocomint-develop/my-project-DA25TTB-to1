@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang= "vi">
 <head>
-	<title> Giới Thiệu </title>
+	<title>Đăng Kí Tài Khoản</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/login-form.css">
 </head>
 <body>
-	<h3>thông tin </h3>
+	<div class ="container">
+		<form id ="frmLogin" method = "post" action = "page2.html">
+			<h2>Sign In</h2>
+			<div class ="form-gr">
+				<label for="txtUsername">Họ và Tên: </label> <br>
+				<input class ="form-control" type ="text" name = "txtName" id = "txtName">
+			</div>
+			<div class ="form-gr">
+				<label for="txtUsername">Username: </label> <br>
+				<input class ="form-control" type ="text" name = "txtUsername" id = "txtUsername">
+			</div>
+			<div class ="form-gr">
+				<label for="txtUsername">Email: </label> <br>
+				<input class ="form-control" type ="email" name = "txtEmail" id = "txtEmail">
+			</div>
+			<div class ="form-gr">
+				<label for="txtPassword">Password: </label> <br>
+				<input class = "form-control" type = "password" name="txtPassword" id="txtPassword"> 
+			</div>
+			<label for="dob">Ngày sinh:</label><br>
+    		<input class ="form-control" type="date" id="dob" name="dob" min="1900-01-01" max="2025-12-31"> 
+			<p>Giới tính:</p>
+				<label><input type="radio" name="gender" value="male" checked> Nam</label><br>
+				<label><input type="radio" name="gender" value="female"> Nữ</label><br>
+				<label><input type="radio" name="gender" value="other"> Khác</label><br><br>
+
+			<!-- nút sign in -->
+			<input class = "button" type="submit" name="sbLogin" value="Sign In">
+			<input class = "button" type="reset" name="rsCancel" id="Cancel">
+		</form>
+	</div>
 </body>
 </html
 	
