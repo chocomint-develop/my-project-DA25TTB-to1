@@ -9,7 +9,7 @@ form {
     max-width: 727px;
     padding: 10px;
     margin: 0px auto; 
-    /* margin-top: 200px; */
+    margin-top: 250px;
 }
 
 h2 {
@@ -32,5 +32,5 @@ body {
 }
 
 .form-control {
-    width: 80%;
+    width: 90%;
 }
