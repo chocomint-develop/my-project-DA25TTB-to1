@@ -4,8 +4,11 @@
 	<title>Hóa Đơn Thanh Toán</title>
 	<meta charset="utf-8">
 	<style>
-		table, tr, th {
-			border: 2px solid black;
+		table, tr, th, td {
+			border: 2px solid rgb(255, 0, 0);
+		}
+		table {
+			width: 75%;
 		}
 	</style>
 </head>
@@ -41,7 +44,7 @@
 				<td>3</td>
 				<td>Rau</td>
 				<td class="dongia">5000</td>
-				<td>2</td>
+				<td class="soluong">2</td>
 				<td>VND</td>
 				<td class ="thanhtien"></td>
 			</tr>
@@ -62,14 +65,16 @@
 				<td class ="thanhtien"></td>
 			</tr>
 			<tr>
-				<td id="thanhtoan" colspan="5">Tổng thanh toán: </td>
+				<td colspan="5">Tổng thanh toán:</td>
+				<td id="tong"></td>
 			</tr>
 		</tbody>
 	</table>
 
-	<script>
-
+	<script src="../js/hoadon.js">
+		
 	</script>
+		
 </body>
-</html
+</html>
 	
