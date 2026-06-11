@@ -12,6 +12,20 @@ const products = [
         image: "../assets/images/Dell-Precison-5550-3.webp",
         info: "Cấu Hình: Core i7 10850H, Ram 32GB, SSD 1TB, Quadro T1000 4GB, 15.6 4K 60Hz",
         link: "#"
+    },
+    {
+        name: "Lenovo IdeaPad Slim 3 (Xiaoxin 16c)",
+        price: "16.800.000đ",
+        image: "../assets/images/16c.png",
+        info: "Cấu Hình: R7-8745H, Ram 16GB, SSD 512GB, Radeon 780M, 15.6” FHD 60Hz",
+        link: "#"
+    },
+    {
+        name: "ROG Zephyrus G14 2025",
+        price: "55.900.000đ",
+        image: "../assets/images/rog-zep-g14-2025.png",
+        info: "Cấu Hình:  Ryzen AI 9 HX370, Ram 32GB, SSD 512GB, RTX 5060 8GB, 14” 3K 120Hz",
+        link: "#"
     }
 ]
 
