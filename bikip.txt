@@ -11,3 +11,78 @@ git push -u origin main
 git remote add origin https://github.com/Zioio845/in-class-project.git
 git branch -M main
 git push -u origin main
+
+
+<div class ="col">
+				<div class="card product-item">
+					<div class=" ratio ratio-1x1 product-image">
+						<img src="../assets/images/MI-LY-MODERN-LAU-THAI-TOM-768x966.webp" alt="Nước tăng lực" class="card-img-top object-fit-cover">
+					</div>
+					<!-- info product -->
+					<div class="card-body product-info">
+						<h4 class="card title">Mì ly</h4>
+						<h6 class="text-danger">Giá 8.000k</h6>
+						<p>Mì ly giúp ta tỉnh táo và không lo đói trong công việc.</p>
+						<a href="#" class="btn btn-primary">Hết hàng</a>
+					</div>
+				</div>
+			</div>
+
+			<div class ="col">
+				<div class="card product-item">
+					<div class=" ratio ratio-1x1 product-image">
+						<img src="../assets/images/c2.png" alt="Nước C2" class="card-img-top object-fit-cover">
+					</div>
+					<!-- info product -->
+					<div class="card-body product-info">
+						<h4 class="card title">Nước tăng lực C2</h4>
+						<h6 class="text-danger">Giá 10.000k</h6>
+						<p>Nước C2 giúp ta tỉnh táo trong công việc.</p>
+						<a href="#" class="btn btn-primary">Hết hàng</a>
+					</div>
+				</div>
+			</div>
+			<div class ="col">
+				<div class="card product-item">
+					<div class=" ratio ratio-1x1 product-image">
+						<img src="../assets/images/rau.jfif" alt="Rau" class="card-img-top object-fit-cover">
+					</div>
+				
+					<!-- info product -->
+					<div class="card-body product-info">
+						<h4 class="card title">Rau</h4>
+						<h6 class="text-danger">Giá 12.000k</h6>
+						<p>Rau giúp ta nấu canh và tỉnh táo trong công việc.</p>
+						<a href="#" class="btn btn-primary">Hết hàng</a>
+					</div>
+				</div>
+			</div>
+			<div class ="col">
+				<div class="card product-item">
+					<div class=" ratio ratio-1x1 product-image">
+						<img src="../assets/images/red-blue.jpg" alt="Nước tăng lực" class="card-img-top object-fit-cover">
+					</div>
+					
+					<!-- info product -->
+					<div class="card-body product-info">
+						<h4 class="card title">Nước tăng lực Red Blue</h4>
+						<h6 class="text-danger">Giá 12.000k</h6>
+						<p>Nước tăng lực giúp ta tỉnh táo trong công việc.</p>
+						<a href="#" class="btn btn-primary">Hết hàng</a>
+					</div>
+				</div>
+			</div>
+			<div class ="col">
+				<div class="card product-item">
+					<div class=" ratio ratio-1x1 product-image">
+						<img src="../assets/images/muoi-ot.jpg" alt="Muối ớt" class="card-img-top object-fit-cover">
+					</div>
+					<!-- info product -->
+					<div class="card-body product-info">
+						<h4 class="card title">Muối ớt</h4>
+						<h6 class="text-danger">Giá 10.000k</h6>
+						<p>Muối giúp ta thêm gia vị và tỉnh táo trong công việc.</p>
+						<a href="#" class="btn btn-primary">Hết hàng</a>
+					</div>
+				</div>
+			</div>
