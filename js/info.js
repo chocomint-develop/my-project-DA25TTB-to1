@@ -4,7 +4,7 @@ const products = [
         price: "24.900.000đ",
         image: "../assets/images/legion5.jpeg",
         info: "Cấu Hình: R7-8745H, Ram 16GB, SSD 512GB, RTX 4060 8GB, 15.6” FHD 144Hz",
-        link: "#"
+        link: "../html/legion.html"
     },
     {
         name: "Dell Precision 5550",
@@ -42,7 +42,7 @@ function createItem(obj) {
 						<h4 class="card title">${obj.name}</h4>
 						<h6 class="text-danger">${obj.price}</h6>
 						<p>${obj.info}</p>
-						<a href="${obj.link}" class="btn btn-primary">Còn hàng</a>
+						<a href="${obj.link}" class="btn btn-primary">Chi Tiết</a>
 					</div>
 	            </div>
     </div>`;
