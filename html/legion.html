@@ -10,35 +10,41 @@
 
 </head>
 <body>
-	<div class ="container"> 
-		<h2>Chi tiết sản phẩm</h2>
-		<div class ="col product-item"> 
-            <div class="card">
-                <div class="card-img" style="display: flex; flex-direction: row; align-items: center" >
-                    <img src="../assets/images/legion5.jpeg" height="356px" width="400px">
-                    <div class="card-body">
-                        <h4 class="card-title">Lenovo Legion 5 (Nội Địa)</h4> 
+    <div class="container product-detail-page">
+        <h2 class="mb-4 text-center">Chi tiết sản phẩm</h2>
+        <div class="card product-detail-card shadow-sm mb-4 ">
+            <div class="row g-0 align-items-stretch">
+                <div class="col-12 col-lg-6 product-detail-media">
+                    <div class="ratio ratio-4x3 h-100">
+                        <img src="../assets/images/legion5.jpeg" alt="Lenovo Legion 5" class="w-100 h-100 object-fit-cover">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 product-detail-body">
+                    <div class="card-body d-flex flex-column justify-content-center h-100">
+                        <h4 class="card-title">Lenovo Legion 5 (Nội Địa)</h4>
                         <h5 class="text-danger">Giá bán: 24.900.000đ</h5>
-                        <h6>Danh mục: Laptop</h6>
-                        <h6>Hãng: Lenovo</h6> <br>
-                        <a href="#" class="btn btn-primary">Mua Ngay</a>
+                        <div class="mb-3">
+                            <div>Danh mục: Laptop</div>
+                            <div>Hãng: Lenovo</div>
+                        </div>
+                        <a href="#" class="btn btn-primary align-self-start">Mua Ngay</a>
                     </div>
                 </div>
-                
-                <div class="card info bg-light text-dark">
-                    <div class="card-body">
-                        <h4 class="card-title">Chi Tiết</h4>
-                        <p>Lenovo Legion 5 2024 phiên bản chạy chip AMD (thường được biết đến với tên mã Lenovo Legion R7000 / R7000P) là mẫu laptop gaming quốc dân.
-                         Máy kết hợp giữa hiệu năng mạnh mẽ từ CPU AMD Ryzen 7, card đồ họa rời và hệ thống tản nhiệt Lenovo Coldfront mát mẻ, ổn định.</p>
-                    </div>
-                </div>
-                <br>
-
-                <h5><b>Sản phẩm liên quan</b></h5>
-                <div class="row row-cols-1 row-cols-md-4 g-4" id="Recommended">
-                    <!-- hien san pham recomenreeted  -->
-                </div> <!--row-->
             </div>
+        </div>
+
+        <div class="card product-description-card shadow-sm mb-4 info bg-light text-dark">
+            <div class="card-body">
+                <h4 class="card-title">Chi Tiết</h4>
+                <p class="mb-0">Lenovo Legion 5 2024 phiên bản chạy chip AMD (thường được biết đến với tên mã Lenovo Legion R7000 / R7000P) 
+                    là mẫu laptop gaming quốc dân. Máy kết hợp giữa hiệu năng mạnh mẽ từ CPU AMD Ryzen 7, card đồ họa rời và hệ thống tản nhiệt Lenovo Coldfront mát mẻ, ổn định.
+                </p>
+            </div>
+        </div>
+
+        <h5 class="mb-3"><b>Sản phẩm liên quan</b></h5>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4" id="Recommended">
+            <!-- hien san pham recomenreeted  -->
         </div>
 	</div>
 
