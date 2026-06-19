@@ -16,7 +16,7 @@ const products = [
         price: "15.900.000đ",
         image: "../assets/images/Dell-Precison-5550-3.webp",
         info: "Cấu Hình: Core i7 10850H, Ram 32GB, SSD 1TB, Quadro T1000 4GB, 15.6 4K 60Hz",
-        link: "#",
+        link: "../html/dell.html",
         category:{
             id:"02",
             brand:"dell",
@@ -27,7 +27,7 @@ const products = [
         name: "Lenovo IdeaPad Slim 3 (Xiaoxin 16c)",
         price: "16.800.000đ",
         image: "../assets/images/16c.png",
-        info: "Cấu Hình: R7-8745H, Ram 16GB, SSD 512GB, Radeon 780M, 15.6” FHD 60Hz",
+        info: "Cấu Hình: R7-8745H, Ram 16GB, SSD 512GB, Radeon 780M, 16” FHD+ 60Hz",
         link: "#",
         category:{
             id:"03",
