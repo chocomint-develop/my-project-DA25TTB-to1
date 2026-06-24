@@ -3,12 +3,13 @@
 	<head>
 		<title>Bảng cửu chương</title>
 		<meta charset = "utf-8">
-		
+		<link rel="stylesheet" href="../css/bang-cuu-chuong.css">
 	</head>
 	<body>
 		<div class = "container">
+				<h1>Xin chao bạn đến với bảng cửu chương</h1>
             <form>
-                <label>Nhập vào 1 số từ 1 đến 10:</label>
+                <label>Hãy nhập vào 1 số từ 1 đến 10:</label>
                 <input type = "number" name = "txtSo" id = "txtSo" placeholder="Nhập vào 1 số" min = "1" max = "10" value = "2">
                 <input type = "button" id = "btnPrint" value = "In bảng cửu chương" onclick = "printBCC(document.getElementById('txtSo').value)">
             </form>
